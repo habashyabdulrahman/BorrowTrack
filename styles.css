@@ -323,7 +323,7 @@
 
     /* === Toast === */
     .toast {
-      position: fixed; top: 24px; left: 50%; transform: translateX(-50%) translateY(-80px);
+      position: fixed; top: 7px; left: 50%; transform: translateX(-50%) translateY(-80px);
       background: rgba(30,35,55,0.95); backdrop-filter: blur(12px); border: 1px solid var(--border);
       border-radius: var(--radius-sm); padding: 14px 22px; font-size: 0.9rem; font-weight: 500;
       color: var(--text-primary); z-index: 999; transition: transform 0.35s cubic-bezier(.34,1.56,.64,1);
@@ -331,4 +331,4 @@
     }
     .toast.show { transform: translateX(-50%) translateY(0); }
     .toast.error   { border-color: var(--accent-coral); color: var(--accent-coral); }
-    .toast.success { top: 7px !important; border-color: var(--accent-teal);  color: var(--accent-teal); }
+    .toast.success { top: 7px; border-color: var(--accent-teal);  color: var(--accent-teal); }
