@@ -46,4 +46,4 @@ Because this is a vanilla web application, no build tools (Webpack/Vite) or pack
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/BorrowTrack.git](https://github.com/YOUR_USERNAME/BorrowTrack.git)
+   git clone [https://github.com/habashyabdulrahman/BorrowTrack](https://github.com/habashyabdulrahman/BorrowTrack)
