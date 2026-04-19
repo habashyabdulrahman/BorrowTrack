@@ -331,4 +331,4 @@
     }
     .toast.show { transform: translateX(-50%) translateY(0); }
     .toast.error   { border-color: var(--accent-coral); color: var(--accent-coral); }
-    .toast.success { border-color: var(--accent-teal);  color: var(--accent-teal); }
+    .toast.success { top: 7px !important; border-color: var(--accent-teal);  color: var(--accent-teal); }
